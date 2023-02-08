@@ -15,11 +15,12 @@
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  box-shadow: 1px 1px 5px 0px #7f7c7c;
+  box-shadow: 0px -8px 14px 2px #7f7c7c;
 }
 .userPhoto {
   border-radius: 50%;
   max-width: 35%;
+  box-shadow: 0px -8px 14px 2px #7f7c7c;
 }
 .userName {
   font-size: 20px;

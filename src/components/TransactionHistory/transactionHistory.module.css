@@ -9,5 +9,6 @@
   background-color: #c1d5f6;
 }
 .transactionHistory {
+  box-shadow: 0px -8px 14px 2px #7f7c7c;
   margin-bottom: 20px;
 }
