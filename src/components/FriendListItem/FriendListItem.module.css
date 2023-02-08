@@ -10,12 +10,14 @@
   height: 10px;
   border-radius: 50%;
   background-color: #06dc2a;
+  align-self: start;
 }
 .offline {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #8b2727;
+  align-self: start;
 }
 .friendPhoto {
   width: 100px;
