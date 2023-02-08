@@ -1,0 +1,24 @@
+.friendItem {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.online {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #06dc2a;
+}
+.offline {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8b2727;
+}
+.friendPhoto {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,23 @@
+.sectionStatTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 20px;
+}
+.statList {
+  display: flex;
+  border: 2px solid rgb(111, 111, 111);
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.statItem {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  border: 2px solid rgb(111, 111, 111);
+  padding: 0 45px;
+  background-color: #3b994b;
+}
+.labelStatItem {
+  margin-bottom: 10px;
+}
