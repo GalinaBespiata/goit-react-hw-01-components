@@ -6,17 +6,17 @@
 }
 .online {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  background-color: #06dc2a;
+  background-color: #04911c;
   align-self: start;
 }
 .offline {
-  width: 10px;
-  height: 10px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  background-color: #8b2727;
+  background-color: #ff8383;
   align-self: start;
 }
 .friendPhoto {
