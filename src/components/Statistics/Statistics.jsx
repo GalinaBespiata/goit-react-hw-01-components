@@ -16,7 +16,7 @@ export function Statistics({ title, stats }) {
             >
               <span className={css.labelStatItem}>{label}</span>
 
-              <span className="percentage">{percentage}%</span>
+              <span>{percentage}%</span>
             </li>
           );
         })}
@@ -32,7 +32,7 @@ Statistics.propTypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    })
+    }).isRequired
   ).isRequired,
 };
 

@@ -4,20 +4,20 @@
   flex-direction: column;
   align-items: center;
 }
-.online {
+.status {
   display: inline-block;
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: #04911c;
   align-self: start;
 }
+.online {
+  composes: status;
+  background-color: #04911c;
+}
 .offline {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
+  composes: status;
   background-color: #ff8383;
-  align-self: start;
 }
 .friendPhoto {
   width: 100px;

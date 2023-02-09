@@ -14,16 +14,10 @@ export function TransactionHistory({ items }) {
       <tbody>
         {items.map(({ id, type, amount, currency }, idx, arr) => {
           return (
-            <tr key={id}>
-              <td className={idx % 2 === 0 ? css.secondTd : css.firstTd}>
-                {type}
-              </td>
-              <td className={idx % 2 === 0 ? css.secondTd : css.firstTd}>
-                {amount}
-              </td>
-              <td className={idx % 2 === 0 ? css.secondTd : css.firstTd}>
-                {currency}
-              </td>
+            <tr key={id} className={css.tr}>
+              <td>{type}</td>
+              <td>{amount}</td>
+              <td>{currency}</td>
             </tr>
           );
         })}

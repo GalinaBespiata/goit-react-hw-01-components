@@ -31,8 +31,8 @@ export function Profile({ username, tag, location, avatar, stats }) {
 Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
-  tag: PropTypes.string,
-  location: PropTypes.string,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
   stats: PropTypes.shape({
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,

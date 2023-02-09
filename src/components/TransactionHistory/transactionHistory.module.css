@@ -2,10 +2,10 @@
   background-color: #25c1fa;
   color: wheat;
 }
-.secondTd {
+.tr:nth-child(even) {
   background-color: #dedfe0;
 }
-.firstTd {
+.tr {
   background-color: #c1d5f6;
 }
 .transactionHistory {
